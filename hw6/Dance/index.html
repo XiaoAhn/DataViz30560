@@ -244,28 +244,28 @@
 
                 emp
                     .transition()
-                    .duration(500)
+                    .duration(50)
                     .ease(d3.easeLinear)
                     .attr("x", 520)
                     .attr("y", 270)
                 
                 medicaid
                     .transition()
-                    .duration(500)
+                    .duration(50)
                     .ease(d3.easeLinear)
                     .attr("x", 100)
                     .attr("y", 470)
                 
                 medicare
                     .transition()
-                    .duration(500)
+                    .duration(50)
                     .ease(d3.easeLinear)
                     .attr("x", 65)
                     .attr("y", 330)
                 
                 uninsured
                     .transition()
-                    .duration(500)
+                    .duration(50)
                     .ease(d3.easeLinear)
                     .attr("x", 50)
                     .attr("y", 115)
@@ -276,28 +276,28 @@
 
                 emp
                     .transition()
-                    .duration(500)
+                    .duration(50)
                     .ease(d3.easeLinear)
                     .attr("x", 500)
                     .attr("y", 250)
                 
                 medicaid
                     .transition()
-                    .duration(500)
+                    .duration(50)
                     .ease(d3.easeLinear)
                     .attr("x", 80)
                     .attr("y", 450)
                 
                 medicare
                     .transition()
-                    .duration(500)
+                    .duration(50)
                     .ease(d3.easeLinear)
                     .attr("x", 40)
                     .attr("y", 330)
                 
                 uninsured
                     .transition()
-                    .duration(500)
+                    .duration(50)
                     .ease(d3.easeLinear)
                     .attr("x", 75)
                     .attr("y", 105)
@@ -320,9 +320,6 @@
                 .ease(d3.easeLinear)
                 .attr("fill", d => color(d.key))
                 .attr("d", area)
-            
-
-
         }
 
         var timer = d3.interval(update, 2000) //in milliseconds
